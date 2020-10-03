@@ -12,6 +12,6 @@ int main()
     printf("\nAddress of i is      [ %u ]", &i);
     printf("\nValue   at i is      [ %d ]", *(&i));
     printf("\nAdress  of i in j is [ %u ]", j);
-
+    printf("\nAddress of j is      [ %u ]", &j);
     return 0;
 }
